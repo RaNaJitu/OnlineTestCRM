@@ -1,0 +1,30 @@
+.not-found{
+  position: fixed;
+  top: 0;
+  width: 100vh;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-action{
+  margin-right: 6px;
+}
+
+.btn-top{
+  margin-top: 20px;
+}
+
+.homeButton{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.textStyle{
+  margin-top: 50px;
+  color: #fff;
+}
