@@ -34,7 +34,7 @@ function App() {
           <Route exact path='/user/edit/:id' component={EditUser} />
           <Route exact path='/user/:id' component={User} />
           <Route exact path='/question/add' component={AddQuestion} />
-          <Route exact path='/question/edit' component={EditQuestion} />
+          <Route exact path='/question/edit/:id' component={EditQuestion} />
           {/* <Redirect to="/" /> */}
           <Route component={ NotFound } />
         </Switch>

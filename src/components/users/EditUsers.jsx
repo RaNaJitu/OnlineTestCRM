@@ -27,7 +27,7 @@ const EditUser = () => {
         const result = await Axios.get(`http://localhost:8084/users/${id}`);
         setUser(result.data);
         // console.log(result);
-      };
+    };
 
     const onSubmit = async (e) => {
         e.preventDefault();

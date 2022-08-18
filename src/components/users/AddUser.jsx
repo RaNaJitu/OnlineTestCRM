@@ -20,6 +20,7 @@ const AddUser = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault();
+        console.log("*********user***********", user);
         await Axios.post("http://localhost:8084/users", user);
         history.push("/user/Details")
     }

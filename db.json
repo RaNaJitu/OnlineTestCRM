@@ -1,121 +1,6 @@
 {
   "users": [
     {
-      "id": 4,
-      "name": "Patricia Lebsack",
-      "username": "Kariannejeeeeeeeeet",
-      "email": "Julianne.OConner@kory.org",
-      "address": {
-        "street": "Hoeger Mall",
-        "suite": "Apt. 692",
-        "city": "South Elvis",
-        "zipcode": "53919-4257",
-        "geo": {
-          "lat": "29.4572",
-          "lng": "-164.2990"
-        }
-      },
-      "phone": "493-170-9623 x156",
-      "website": "kale.biz",
-      "company": {
-        "name": "Robel-Corkery",
-        "catchPhrase": "Multi-tiered zero tolerance productivity",
-        "bs": "transition cutting-edge web services"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Chelsey Dietrich",
-      "username": "Kamren",
-      "email": "Lucio_Hettinger@annie.ca",
-      "address": {
-        "street": "Skiles Walks",
-        "suite": "Suite 351",
-        "city": "Roscoeview",
-        "zipcode": "33263",
-        "geo": {
-          "lat": "-31.8129",
-          "lng": "62.5342"
-        }
-      },
-      "phone": "(254)954-1289",
-      "website": "demarco.info",
-      "company": {
-        "name": "Keebler LLC",
-        "catchPhrase": "User-centric fault-tolerant solution",
-        "bs": "revolutionize end-to-end systems"
-      }
-    },
-    {
-      "id": 6,
-      "name": "Mrs. Dennis Schulist",
-      "username": "Leopoldo_Corkery",
-      "email": "Karley_Dach@jasper.info",
-      "address": {
-        "street": "Norberto Crossing",
-        "suite": "Apt. 950",
-        "city": "South Christy",
-        "zipcode": "23505-1337",
-        "geo": {
-          "lat": "-71.4197",
-          "lng": "71.7478"
-        }
-      },
-      "phone": "1-477-935-8478 x6430",
-      "website": "ola.org",
-      "company": {
-        "name": "Considine-Lockman",
-        "catchPhrase": "Synchronised bottom-line interface",
-        "bs": "e-enable innovative applications"
-      }
-    },
-    {
-      "id": 7,
-      "name": "Kurtis Weissnat",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
-      "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
-        "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
-        }
-      },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
-      "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
-      }
-    },
-    {
-      "id": 8,
-      "name": "Nicholas Runolfsdottir V",
-      "username": "Maxime_Nienow",
-      "email": "Sherwood@rosamond.me",
-      "address": {
-        "street": "Ellsworth Summit",
-        "suite": "Suite 729",
-        "city": "Aliyaview",
-        "zipcode": "45169",
-        "geo": {
-          "lat": "-14.3990",
-          "lng": "-120.7677"
-        }
-      },
-      "phone": "586.493.6943 x140",
-      "website": "jacynthe.com",
-      "company": {
-        "name": "Abernathy Group",
-        "catchPhrase": "Implemented secondary concept",
-        "bs": "e-enable extensible e-tailers"
-      }
-    },
-    {
       "id": 9,
       "name": "Glenna Reichert",
       "username": "Delphine",
@@ -170,8 +55,8 @@
       "id": 11
     },
     {
-      "name": "aaaa",
-      "username": "bbbb",
+      "name": "India",
+      "username": "Bharat",
       "email": "aaaa@gamil.com",
       "phone": "1234567890",
       "website": "aaaa.com",
@@ -184,6 +69,30 @@
       "phone": "1234567890",
       "website": "ashich.com",
       "id": 13
+    },
+    {
+      "name": "chudial",
+      "username": "chudails11",
+      "email": "chudails@gmail.com",
+      "phone": "123456789",
+      "website": "chudails.com",
+      "id": 14
+    },
+    {
+      "name": "bhut",
+      "username": "bhut11",
+      "email": "vhut@gmail.com",
+      "phone": "123456789",
+      "website": "bhut.com",
+      "id": 15
+    },
+    {
+      "name": "archanaKoMaro",
+      "username": "archana111",
+      "email": "archana@gamil.com",
+      "phone": "435678",
+      "website": "archu.com",
+      "id": 16
     }
   ],
   "questionsPaper": [
@@ -192,9 +101,15 @@
       "question": "2*2",
       "options": [
         {
-          "opt1": "2",
-          "opt2": "3",
-          "opt3": "8",
+          "opt1": "2"
+        },
+        {
+          "opt2": "3"
+        },
+        {
+          "opt3": "8"
+        },
+        {
           "opt4": "4"
         }
       ],
@@ -206,9 +121,15 @@
       "question": "2*3",
       "options": [
         {
-          "opt1": "2",
-          "opt2": "3",
-          "opt3": "8",
+          "opt1": "2"
+        },
+        {
+          "opt2": "3"
+        },
+        {
+          "opt3": "8"
+        },
+        {
           "opt4": "4"
         }
       ]
@@ -218,9 +139,15 @@
       "question": "2*4",
       "options": [
         {
-          "opt1": "2",
-          "opt2": "3",
-          "opt3": "8",
+          "opt1": "2"
+        },
+        {
+          "opt2": "3"
+        },
+        {
+          "opt3": "8"
+        },
+        {
           "opt4": "4"
         }
       ]
@@ -230,9 +157,15 @@
       "question": "2*5",
       "options": [
         {
-          "opt1": "1",
-          "opt2": "2",
-          "opt3": "3",
+          "opt1": "1"
+        },
+        {
+          "opt2": "2"
+        },
+        {
+          "opt3": "3"
+        },
+        {
           "opt4": "4"
         }
       ]
@@ -241,10 +174,16 @@
       "question": "3+3",
       "options": [
         {
-          "opt1": "2",
-          "opt2": "4",
-          "opt3": "8",
-          "opt4": "6"
+          "opt1": "2"
+        },
+        {
+          "opt2": "4"
+        },
+        {
+          "opt3": "8"
+        },
+        {
+          "opt4": "12"
         }
       ],
       "id": 5
@@ -253,13 +192,133 @@
       "question": "3+3*4+4",
       "options": [
         {
-          "opt1": "2",
-          "opt2": "4",
-          "opt3": "19",
+          "opt1": "2"
+        },
+        {
+          "opt2": "4"
+        },
+        {
+          "opt3": "19"
+        },
+        {
           "opt4": "6"
         }
       ],
       "id": 6
+    },
+    {
+      "question": "4+4*4",
+      "options": [
+        {
+          "opt1": "20"
+        },
+        {
+          "opt2": "22"
+        },
+        {
+          "opt4": "34"
+        },
+        {
+          "opt3": "23"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "question": "4+4",
+      "options": [
+        {
+          "opt1": "7"
+        },
+        {
+          "opt2": "8"
+        },
+        {
+          "opt3": "9"
+        },
+        {
+          "opt4": "5"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "question": "8*8",
+      "options": [
+        {
+          "opt1": "6"
+        },
+        {
+          "opt1": "64"
+        },
+        {
+          "opt2": "6"
+        },
+        {
+          "opt2": "60"
+        },
+        {
+          "opt3": "4"
+        },
+        {
+          "opt3": "40"
+        },
+        {
+          "opt4": "5"
+        },
+        {
+          "opt4": "50"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "question": "2*0",
+      "options": [
+        {
+          "opt1": "0"
+        },
+        {
+          "opt2": "2"
+        },
+        {
+          "opt4": "3"
+        },
+        {
+          "opt3": "4"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "question": "6*6",
+      "options": [
+        {
+          "opt1": "3"
+        },
+        {
+          "opt1": "36"
+        },
+        {
+          "opt2": "3"
+        },
+        {
+          "opt2": "32"
+        },
+        {
+          "opt3": "6"
+        },
+        {
+          "opt3": "66"
+        },
+        {
+          "opt4": "2"
+        },
+        {
+          "opt4": "21"
+        }
+      ],
+      "id": 11
     }
   ]
 }

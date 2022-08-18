@@ -1,18 +1,28 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const Home = () => {
   const [questionsPaper, setUser] = useState([]);
+  const {id} = useParams();
   useEffect(() => {
-    console.log("my name is jitu");
+    // console.log("my name is jitu");
+    // console.log("my name is jitu", questionsPaper);
     loadUsers();
   }, []);
 
   const loadUsers = async () => {
     const result = await axios.get("http://localhost:8084/questionsPaper");
+    // console.log('***********result***************', result)
+    // console.log('***********id***************', id)
     setUser(result.data);
   };
+
+  const deleteQuestion = async id => {
+    console.log('******DELETE KE AANDER AA GYA*******', id);
+    await axios.delete(`http://localhost:8084/questionsPaper/${id}`);
+    loadUsers();
+  }
   return (
     <div className="container">
       <div className="py-4">
@@ -46,26 +56,11 @@ const Home = () => {
                   {user.option}
                   {/* {user.options.map(data => ( <td> {data.opt1} </td>))} */}
                   <ul>
-                    <li className="travelcompany-input">
+                    {/* <li className="travelcompany-input"> */}
                       {user.options.map((data) => (
-                        <td> {data.opt1} </td>
+                         <li>{data.opt1 || data.opt2 || data.opt3 || data.opt4}</li>
                       ))}
-                    </li>
-                    <li className="travelcompany-input">
-                      {user.options.map((data) => (
-                        <td> {data.opt2} </td>
-                      ))}
-                    </li>
-                    <li className="travelcompany-input">
-                      {user.options.map((data) => (
-                        <td> {data.opt3} </td>
-                      ))}
-                    </li>
-                    <li className="travelcompany-input">
-                      {user.options.map((data) => (
-                        <li> {data.opt4} </li>
-                      ))}
-                    </li>
+                    {/* </li> */}
                   </ul>
                   {/* <td style={{ border: "1px solid" }}>{user.options.map(data => ( <td> {data.opt1} </td>))}</td>
                   <td style={{ border: "1px solid" }}>{user.options.map(data => ( <td> {data.opt2} </td>))}</td>
@@ -75,11 +70,11 @@ const Home = () => {
                 <td>
                   <Link
                     class="btn btn-outline-primary btn-action"
-                    to="/question/edit"
+                    to={`/question/edit/${user.id}`}
                   >
                     Edit
                   </Link>
-                  <Link class="btn btn-danger" to="">
+                  <Link class="btn btn-danger" onClick={() => deleteQuestion(user.id)}>
                     Delete
                   </Link>
                 </td>
